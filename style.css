@@ -1,0 +1,348 @@
+:root {
+    --light-blue: #2196f3;
+    --grey: #757575;
+    --black: #212121;
+    --white: #e5e5e5;
+    --main-banner: #2f303a;
+    --white-main-banner: #ffffff;
+    --portfolio-button: #f5f4fa;
+    --flex-gap: 1.25rem;
+  }
+  
+  body {
+    color: var(--grey);
+    background-color: var(--white-main-banner);
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto", sans-serif;
+  }
+  .container {
+    margin: 0 auto;
+    width: 1200px;
+  }
+  .header-elements {
+    background-color: var(--white-main-banner);
+    line-height: 1.17;
+    box-sizing: border-box;
+    width: 100%;
+    display: block;
+  }
+  .nav-links a {
+    color: var(--black);
+  }
+  .nav-links {
+    font-size: 14px;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: var(--flex-gap);
+    justify-content: space-around;
+    align-items: center;
+  }
+  .nav-logo {
+    font-size: 26px;
+    font-family: Raleway;
+    text-decoration: none;
+  }
+  .nav-menu {
+    text-decoration: none;
+    font-size: 16px;
+    font-style: normal;
+font-weight: 500;
+  }
+  .nav-menu,
+  .nav-links {
+    font-weight: 500;
+  }
+  .nav-links a:hover,
+  .nav-links a:focus,
+  .nav-contacts:hover,
+  .nav-contacts:focus {
+    color: var(--light-blue);
+  }
+  .web-color {
+    color:#4D5AE5;
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 21px;
+}
+
+.studio-color {
+    color: #2E2F42;
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 21px;
+}
+
+  .nav-contacts {
+    color: var(--black);
+    text-decoration: none;
+    font-size: 14px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .main-banner {
+    color: var(--white-main-banner);
+    background-color: var(--main-banner);
+    padding: 200px 0;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  .main-banner > h1 {
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 1.36;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .main-banner-description {
+    line-height: 1.36;
+  }
+  .button-main {
+    color: var(--white-main-banner);
+    background-color: var(--light-blue);
+    font-size: 16px;
+    line-height: 1.875;
+    padding: 10px 42px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+  }
+  .main-description-box {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 94px;
+    margin-bottom: 94px;
+    padding: 0;
+    gap: var(--flex-gap);
+  }
+  .main-description {
+    font-size: 14px;
+    text-align: justify;
+    box-sizing: border-box;
+  }
+  .main-description-title {
+    color: black;
+    font-size: 14px;
+    line-height: 1.17;
+  }
+  .main-description-text {
+    line-height: 1.71;
+  }
+  .section-working {
+    margin-bottom: 188px;
+  }
+  .section-headline {
+    color: var(--black);
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.17;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+  }
+  .section-working-kind {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+  }
+  .about-us {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .about-us figure {
+    margin: 0;
+  }
+  .about-us-img {
+    margin-bottom: 30px;
+  }
+  .about-name {
+    color: var(--black);
+    font-weight: 500;
+    text-align: center;
+  }
+  .about-position {
+    text-align: center;
+    margin-bottom: 94px;
+  }
+  .about-name,
+  about-position {
+    line-height: 1.17;
+  }
+  .footer {
+    background-color: var(--main-banner);
+    font-size: 14px;
+    box-sizing: border-box;
+    line-height: 1.17;
+    padding: 60px 0;
+    font-family: Raleway;
+    text-decoration: none;
+    width: 100%;
+  }
+  .footer-color-web {
+    color:#4D5AE5;
+    width: 44px;
+    height: 21px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    
+  }
+  .footer-color-studio {
+    color: #F4F4FD;
+    width: 71px;
+    height: 21px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+   
+    
+  }
+  .footer-color-text {
+    color: #F4F4FD;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    
+  }
+  .portfolio-button {
+    font-family: 'Roboto';
+     font-size: 16px;
+    font-style: normal;
+    line-height: 24px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+    border: 0;
+    outline: 0;
+    margin-top: 100px;
+    margin-bottom: 56px;
+    padding: 0;
+  }
+
+  .portfolio-button-nav-1 {
+    color: #FFFFFF;
+    background-color: #404BBF;
+    font-style: normal;
+    font-size: 16px;
+    line-height:  24px;
+    font-weight: 500;
+    outline: none;
+    border: 0;
+    border-radius:  4px;
+    padding: 6px 22px;
+    cursor: pointer;
+    display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.04em;
+font-family: 'Roboto';
+
+  }
+
+  .portfolio-button-nav {
+    color: #4D5AE5;
+    background-color: #F4F4FD;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    outline: none;
+    border: 0;
+    border-radius:  4px;
+    padding: 6px 22px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    font-family: 'Roboto';
+
+  }
+  .portfolio-button-nav:hover,
+  .portfolio-button-nav:focus {
+    color: var(--portfolio-button);
+    background-color: var(--light-blue);
+  }
+  .about-projects-title {
+    color: #2E2F42;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+   
+    margin-bottom: 4px;
+  }
+  .about-projects-type {
+    color: #434455;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+
+  }
+  .about-all-projects {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 114px;
+  }
+  .about-all-projects-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: var(--flex-gap);
+    padding: 0;
+  }
+  .about-all-projects-list figure {
+    margin: 0;
+    border: 1px solid #eeeeee;
+  }
+  .about-all-projects-list figcaption {
+    padding: 0 24px;
+    margin: 20px 0;
+  }
+  .nav-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .nav-separator {
+    flex: auto;
+  }
+  .nav-box-contacts {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--flex-gap);
+    padding: 0;
+    list-style: none;
+  }
+
